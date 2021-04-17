@@ -1,0 +1,36 @@
+.result-page 
+  {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+h1 
+  {
+    margin: 0;
+    color: #303030;
+  }
+h2 
+  {
+    color: rgb(0, 94, 216);
+  }
+
+button.start-btn {
+  width: 150px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+button.start-btn:hover {
+  background-color: green;
+}
